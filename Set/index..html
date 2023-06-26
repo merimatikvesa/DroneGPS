@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>DroneGPS - Set</title>
+  </head>
+  <body>     
+  <div class="shadow">
+    <h1 class="naslov">DroneGPS</h1>
+      <form>
+        <label class="label" for="vrijednost">Enter the tracking code</label>
+        <input type="text" id="vrijednost" name="vrijednost" />
+        <button class="dugme" onclick="spremi()">ACTIVATE THE SENSOR</button>
+      </form>
+    <div class="opis">
+
+      <h3 class="last">What is DroneGPS?</h3>
+
+      DroneGPS is a sensor that is installed on drones that don't have a 
+      built-in GPS system. As drones are frequently used by children for 
+      recreational purposes, it can sometimes happen that the drone gets 
+      lost due to improper handling. In such cases, using the DroneGPS application 
+      allows you to track the distance between you and the drone.
+    </div>
+    
+  </div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase.js"></script>
+
+    <script src="./script.js"></script>
+
+  </body>
+</html>

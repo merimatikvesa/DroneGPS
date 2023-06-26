@@ -1,0 +1,73 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body{
+  background-image: url('./Pozadinska.jpg');
+  background-size: cover;
+  overflow: hidden;
+ 
+  
+}
+.shadow{
+  background-color: rgba(0, 0, 0, 0.555);
+  height: 100vh;
+  width: 100%;
+}
+.naslov{
+text-align: left;
+color: rgb(208, 208, 208);
+padding-top: 50px;
+padding-left: 40px;
+margin-bottom: 40px;
+font-size: 40px;
+}
+
+.label{
+  display: block;
+  color: rgb(208, 208, 208);
+  font-size: 18px;
+  padding-left: 40px;
+  margin-bottom: 5px;
+}
+input{
+  margin-left: 40px;
+  padding-left: 10px;
+height: 40px;
+border-radius: 10px;
+background-color: rgba(0, 0, 0, 0);
+border: 1px solid;
+display: block;
+color:white;
+font-size: 14px;
+width: 250px;
+margin-bottom: 10px;
+}
+.dugme{
+  margin-left: 40px;
+  width: 250px;
+  height: 40px;
+  border-radius: 10px;
+  border:none;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.opis{
+  display: block;
+  
+  border-radius: 0 20px 0 20px;
+  background-color: rgba(0, 0, 0, 0.813);
+  color: white;
+  border: none;
+  height: 230px;
+  width: 350px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  margin-top: 55px;
+  padding: 20px;
+}
+.last{
+  margin-bottom: 20px;
+}
